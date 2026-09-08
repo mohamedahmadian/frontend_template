@@ -619,6 +619,7 @@ export type ManagedUser = {
   photoId: string | null;
   nationalCardPhotoId: string | null;
   passportPhotoId: string | null;
+  identityBookletPhotoId: string | null;
   createdAt: string;
   updatedAt: string;
   roles: RoleOption[];
